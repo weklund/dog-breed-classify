@@ -5,3 +5,4 @@ saved_models/
 .ipynb_checkpoints/
 bottleneck_features/DogVGG16Data.npz
 .idea/
+__pycache__/
