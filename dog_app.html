@@ -15286,6 +15286,7 @@ test_{network} = bottleneck_features['test']</code></pre>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Answer:">Answer:<a class="anchor-link" href="#Answer:">&#182;</a></h2><p>Since I want to leverage and test the Xception Network Architectures, I only want to have a Pooling layer, and a softmax function that maps to the 133 classes, or dog breeds.</p>
+<p>Xception replaces Inception modules with depthwise separable convolutions.</p>
 
 </div>
 </div>
@@ -15805,7 +15806,8 @@ Test accuracy: 70.6938%
 <h2 id="Step-7:-Test-Your-Algorithm">Step 7: Test Your Algorithm<a class="anchor-link" href="#Step-7:-Test-Your-Algorithm">&#182;</a></h2><p>In this section, you will take your new algorithm for a spin!  What kind of dog does the algorithm think that <strong>you</strong> look like?  If you have a dog, does it predict your dog's breed accurately?  If you have a cat, does it mistakenly think that your cat is a dog?</p>
 <h3 id="(IMPLEMENTATION)-Test-Your-Algorithm-on-Sample-Images!">(IMPLEMENTATION) Test Your Algorithm on Sample Images!<a class="anchor-link" href="#(IMPLEMENTATION)-Test-Your-Algorithm-on-Sample-Images!">&#182;</a></h3><p>Test your algorithm at least six images on your computer.  Feel free to use any images you like.  Use at least two human and two dog images.</p>
 <p><strong>Question 6:</strong> Is the output better than you expected :) ?  Or worse :( ?  Provide at least three possible points of improvement for your algorithm.</p>
-<p><strong>Answer:</strong></p>
+<p><strong>Answer:</strong>:</p>
+<p><em>I could use a larger dataset with alot of different dogs, with additional labels and have more than 133 labels, or breeds of dogs.  I could also tweak with the model architecture, maybe add dropouts, and tweak the hyperparameters.  I could also augment the data with Keras ImageDataGenerator to improve the accuracy</em></p>
 
 </div>
 </div>
